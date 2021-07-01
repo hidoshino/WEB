@@ -1,0 +1,6 @@
+1* Aprensetar o Menu do game e explicar situação com relação ao orientador acadêmico.
+
+2* Explicar Rapidamente a Cadeia de classes.
+    - Dar atenção a classe play();
+
+    
