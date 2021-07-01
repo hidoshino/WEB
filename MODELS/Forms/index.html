@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <div class="container-body">
+        <h1>Formulário de cadastro</h1>
+        <form action="Index" method="POST">
+            <div class="item-form">
+                <p>Nome</p>
+                <input required type="text" class="input" placeholder="Digite seu nome...">
+            </div>
+            <div class="item-form">
+                <p>CPF</p>
+                <input required type="text" class="input cpf" placeholder="Digite seu CPF...">
+            </div>
+            <div class="item-form">
+                <p>Empresa</p>
+                <select name="" id="">
+                    <option value="">Clinica de oncologia e mastologia</option>
+                    <option value="">Studio 1917</option>
+                </select>
+            </div>
+            <button><i class="far fa-paper-plane"></i>Cadastrar</button>
+        </form>
+        <div class="table-area">
+            <table>
+                <thead>
+                    <tr>
+                        <td>NOME</td>
+                        <td>CPF</td>
+                        <td>EMPRESA</td>
+                        <td>#</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Filipe</td>
+                        <td>016.956.194-12</td>
+                        <td>Clinica de oncologia e mastologia </td>
+                        <td><i class="fas fa-trash"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Filipe</td>
+                        <td>016.956.194-12</td>
+                        <td>Clinica de oncologia e mastologia </td>
+                        <td><i class="fas fa-trash"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Filipe</td>
+                        <td>016.956.194-12</td>
+                        <td>Clinica de oncologia e mastologia </td>
+                        <td><i class="fas fa-trash"></i></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="jquery.mask.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

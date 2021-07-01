@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: #DDD;
+}
+
+.container-body{
+    width: 90%;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+form{
+    margin-top: 30px;
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+form button{
+    height: 40px;
+    width: 100%;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: #329ace;
+    color: #FFF;
+    margin: 10px 0px;
+    margin-top: 30px;
+    outline: 0;
+    border: 1px solid #DDD;
+}
+
+form button i{
+    margin: 0px 10px;
+}
+
+.item-form{
+    width: 100%;
+    margin: 10px 5px;
+}
+
+.item-form input,
+.item-form select{
+    height: 40px;
+    font-size: 18px;
+    color: #676767;
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 3px;
+    outline: 0;
+    border: 1px solid #f2f2f2;
+}
+
+.item-form select{
+    background-color: #FFF;
+}
+
+.table-area{
+    overflow-x: auto;
+    width: 100%;
+}
+
+table{
+    width: 100%;
+    margin-top: 20px;
+}
+
+table thead{
+    background-color: #F9f9f9;
+}
+table thead tr td{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #676767;
+}
+
+table tbody tr td{
+    background-color: #f2f2f2;
+    padding: 10px;
+    white-space: nowrap;
+}
+
+table tbody tr td:first-child{
+    color: #329ace;
+    padding: 10px;
+    font-size: 14px;
+
+}
+table thead tr td:last-child,
+table tbody tr td:last-child{
+    text-align: center;
+}
+
+table tbody tr td i:last-child{
+    color: #d35400;
+}
+
+@media (max-width:426px){
+    form{
+       flex-wrap: wrap;
+    }
+
+    form button{
+        margin: 10px 5px;
+    }
+}

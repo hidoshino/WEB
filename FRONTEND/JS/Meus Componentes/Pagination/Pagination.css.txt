@@ -1,0 +1,55 @@
+
+.pagination-area{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pagination,
+.pagination2{
+    height: 40px;
+    width: 200px;
+    display: flex;
+    margin-right: 400px;
+}
+
+.pag-init,
+.pag,
+.pag-end{
+    height: 100%;
+    width: 40px;
+    cursor: pointer;
+    border: 1px solid #DDDD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 0px 10px;
+    font-weight: 400;
+}
+
+
+.pag-init:hover,
+.pag:hover,
+.pag-end:hover,
+.pag-init.active,
+.pag.active,
+.pag-end.active{
+    background-color: #2c97d1;
+    color: #FFF;
+}
+
+.pag-init{
+    flex: 1;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.pag{
+    flex: 1;
+    padding: 0px 15px;
+}
+
+.pag-end{
+    flex: 1;
+    border-radius: 0px 10px 10px 0px;
+}
