@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+:root{
+    --cor-bg: #95a5a6;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ope Sans', sans-serif;
+}
+
+.header{
+    background-color: var(--cor-bg);
+}
+
+.menu a{
+    color: #FFF;
+    display: block;
+    padding: 10px;
+}
+
+.menu a:hover{
+    background-color: #FdF;
+    color: #000;
+    display: block;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+
+.menu li {
+    display: inline-block;
+}
+
+.submenu{
+    position: absolute;
+    display: none;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.menu li:hover .submenu{
+    background-color: var(--cor-bg);
+    color: #FFF;
+    cursor: pointer;
+    display: block;
+}
+
+.submenu .menu li {
+    display: block;
+}
